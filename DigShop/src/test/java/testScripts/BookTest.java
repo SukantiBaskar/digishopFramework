@@ -41,5 +41,10 @@ public class BookTest extends BaseClass{
 		
 		Reporter.log("Test case completed",true);
 	}
+	
+	@Test
+	public void books_003() {
+		driver.findElement(By.linkText("BOOKS"));
+	}
 
 }
